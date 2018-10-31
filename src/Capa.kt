@@ -1,6 +1,6 @@
 import java.text.DecimalFormat
 
-class Capa(matriz : Array<Neurona>){
+class Capa(e: Int, p : Int){
 
 
     val pesos = Array(e){DoubleArray (p)}
