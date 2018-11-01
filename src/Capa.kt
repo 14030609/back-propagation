@@ -11,7 +11,7 @@ class Capa(e: Int, p : Int){
         for ( i in 0 until pesos.size)
         {
             for(j in 0 until pesos[0].size){
-                pesos[i][j]=(df.format(Math.random()).toDouble())
+                pesos[i][j]=df.format(Math.random()).toDouble()
             }
         }
 
